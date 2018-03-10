@@ -7,8 +7,7 @@ export class HelloWorldModel extends Observable {
 
   constructor() {
     super();
-
-    this.assaAbloy = new AssaAbloy();
-    this.message = this.assaAbloy.message;
+this.assaAbloy = new AssaAbloy();
+this.assaAbloy.init();
   }
 }

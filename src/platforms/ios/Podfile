@@ -1,0 +1,2 @@
+
+pod 'SeosMobileKeysSDK-Release', :path  => '../../node_modules/nativescript-assa-abloy/platforms/ios/Mobile_Keys_IOS_SDK/Release'
