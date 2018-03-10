@@ -12,4 +12,13 @@ dependencies {
     // Describe plugin native Android dependencies like
 	// compile "groupName:pluginName:ver" 
     // EXAMPLE: compile "com.facebook.fresco:fresco:0.9.0+"
+
+	// Mobile Keys SDK transitive dependencies
+  	compile "org.bouncycastle:bcprov-jdk15on:1.56"
+  	compile "com.google.code.gson:gson:2.7"
+  	compile "com.mixpanel.android:mixpanel-android:4.8.7@aar"
+
+  	compile "org.slf4j:slf4j-api:1.7.21"
+	//Enable logging from Mobile Keys SDK
+  	compile 'org.slf4j:slf4j-android:1.7.7'
 }
